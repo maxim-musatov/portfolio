@@ -1,0 +1,53 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background: var(--transparent-gradient);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(35, 0, 151, 0.25);
+    border-radius: 15px;
+    position: sticky;
+    top: 10px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    z-index: 500;
+
+    &__navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-menu {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+
+            @media (min-width: 1200px) {
+                display: none;
+            }
+        }
+
+        &-icon {
+            width: 100%;
+            height: 100%;
+            display: block;
+            fill: var(--accent-color);
+        }
+
+        &-logo {
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+        }
+    }
+
+    &__logo {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+}

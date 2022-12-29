@@ -1,0 +1,39 @@
+.name {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+
+    &__text {
+        font-family: 'Roboto Mono';
+        font-size: clamp(2.3rem, 4vw, 8rem);
+        font-weight: 700;
+        color: #3770f2;
+        background-image: -webkit-linear-gradient(
+            0deg,
+            #3770f2 0%,
+            #7a00ff 50%,
+            #9c18e8 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+
+    &__description {
+        font-family: 'Roboto Mono';
+        font-size: clamp(1rem, 3vw, 8rem);
+        font-weight: 700;
+        color: #3770f2;
+        background-image: -webkit-linear-gradient(
+            0deg,
+            #3770f2 0%,
+            #7a00ff 50%,
+            #9c18e8 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+}
