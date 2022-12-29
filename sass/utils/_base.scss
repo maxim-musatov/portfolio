@@ -17,12 +17,13 @@
         rgba(35, 0, 105, 1) 0%,
         rgb(0 0 28 / 100%) 72%
     );
+    --font-primary: 'Rubik';
 }
 
 body {
     width: 100%;
     min-height: 100vh;
-    font-family: 'Rubik', sans-serif;
+    font-family: var(--font-primary);
     color: white;
     background-image: url(../../media/background.svg);
     background-position: center;
@@ -88,7 +89,7 @@ section {
 }
 
 .section-heading {
-    font-family: 'Rubik', sans-serif;
+    font-family: var(--font-primary);
     font-size: 1.7rem;
     font-weight: 600;
     color: white;

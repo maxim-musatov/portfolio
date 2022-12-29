@@ -5,7 +5,7 @@
 
     &__text {
         font-family: 'Roboto Mono';
-        font-size: clamp(2.3rem, 4vw, 8rem);
+        font-size: clamp(2.3rem, 6vw, 7.2rem);
         font-weight: 700;
         color: #3770f2;
         background-image: -webkit-linear-gradient(
@@ -22,7 +22,7 @@
 
     &__description {
         font-family: 'Roboto Mono';
-        font-size: clamp(1rem, 3vw, 8rem);
+        font-size: clamp(1rem, 2vw, 6rem);
         font-weight: 700;
         color: #3770f2;
         background-image: -webkit-linear-gradient(

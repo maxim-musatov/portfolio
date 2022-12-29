@@ -43,6 +43,21 @@
             height: 35px;
             cursor: pointer;
         }
+
+        &-links {
+            display: none;
+            gap: 30px;
+
+            @media (min-width: 1200px) {
+                display: flex;
+            }
+
+            &-item {
+                font-family: var(--font-primary);
+                font-size: 1.2rem;
+                color: var(--accent-color);
+            }
+        }
     }
 
     &__logo {
