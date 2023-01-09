@@ -1,12 +1,19 @@
 .card {
     width: 100%;
     height: 2600px;
-    background: url(../media/card-background.svg);
+    background: rgb(23, 17, 45);
+    background: linear-gradient(
+        125deg,
+        rgba(23, 17, 45, 1) 0%,
+        rgba(24, 18, 49, 1) 20%,
+        rgba(36, 21, 56, 1) 50%,
+        rgba(38, 15, 50, 1) 73%,
+        rgba(25, 35, 61, 1) 100%
+    );
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border: 1px solid rgba(35, 0, 151, 0.25);
-    filter: opacity(80%);
     border-radius: 15px;
     padding: 15px 0;
 
